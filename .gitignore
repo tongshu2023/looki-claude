@@ -1,0 +1,44 @@
+# 绝对禁止提交的
+credentials.json
+**/credentials.json
+*.key
+.env
+.env.local
+.env.*.local
+
+# 用户数据
+data/
+images/
+frames/
+*.mp4
+*.jpg
+*.jpeg
+*.png
+!examples/**/*.png
+!examples/**/*.jpg
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+env/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
